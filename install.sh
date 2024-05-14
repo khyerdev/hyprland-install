@@ -228,6 +228,14 @@ sudo ln -s /usr/bin/kitty /usr/bin/xdg-terminal-exec
 ### Script is done ###
 echo -e "$CNT - Script had completed!"
 sleep 1
+echo -e "$CNT - Open up a terminal with SUPER + Q. Make sure to read through the default hyprland configuration at ~/.config/hypr/hyprland.conf"
+sleep 3
+echo -e "$CNT - Additional recommended packages:"
+echo "swww / hyprpaper - Wallpaper daemon"
+echo "firefox - Web browser"
+echo "hyprlock / swaylock / swaylock-effects - Lockscreen manager"
+echo "hypridle - Hyprland idle daemon"
+echo "vim / neovim - Text editor"
 sleep 2
 if [[ "$ISNVIDIA" == true ]]; then 
     echo -e "$CAT - We attempted to set up an NVIDIA GPU.
